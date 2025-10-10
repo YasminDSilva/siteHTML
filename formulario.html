@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <style>
+         *{box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            background-color: #dfd3e7;
+        }
+
+        header{
+            background-color: #dfd3e7;
+            text-align: center;
+        }
+
+        form{
+            background-color: white;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            border-radius: 20px;
+        }
+
+        .nome{
+            height: 26px;
+            margin-left: 2px;
+            border-radius: 4px;
+        }
+
+        .email{
+            height: 26px;
+            margin-right: 3px;
+            border-radius: 4px;
+
+        }
+
+        .tel{
+            height: 26px;
+            margin-right: 14px;
+            border-radius: 4px;
+        }
+
+        .cpf{
+            height: 26px;
+            margin-left: 12px;
+            border-radius: 4px;
+        }
+
+        .senha{
+            height: 26px;
+            margin-left: 2px;
+            border-radius: 4px;
+        }
+
+        .cad{
+            height: 30px;
+            border-radius: 7px;
+        }
+
+        nav{
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a{
+            color: rgb(155, 1, 134);
+            padding: 14px 14px;
+            display: block;
+            align-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <br>
+        <img src="img/music.png" width="120">
+        <h1>Cadastro</h1>  
+    </header>
+     <form>
+        <br>
+        <label for="nome">Nome:</label>
+        <input class="nome" id="nome" type="text" placeholder="Digite seu nome" required>
+
+         <br><br>
+
+        <label for="c_email">E-mail:</label>
+        <input class="email" id="c_email" type="email" placeholder="Digite seu email" required>
+
+        <br><br>
+
+        <label for="tel">Telefone:</label>
+        <input class="tel" id="tel" type="text" placeholder="Digite seu telefone" required>
+
+        <br><br>
+
+        <label for="cpf">CPF:</label>
+        <input class="cpf" id="cpf" type="text" placeholder="Digite seu CPF" required>
+
+        <br><br>
+
+        <label for="senha">Senha:</label>
+        <input class="senha" id="senha" type="password" placeholder="Digite sua senha" required>
+
+
+        <br><br><br>
+
+
+        <input class="cad" type="submit" value="Cadastrar">
+     </form>
+
+    <nav>
+  <a href="index.html" aria-label="Voltar para a página inicial">
+    <img src="img/voltar.png" abbr title="Voltar" width="30" alt="Ícone de voltar">
+  </a>
+</nav>
+</body>
+</html>
