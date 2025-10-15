@@ -1,0 +1,19 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Executando build do projeto...'",
+    "start": "node index.js",
+    "test": "echo 'Executando testes...' && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasminDSilva/SiteHTML.git"
+  },
+  "keywords": [],
+  "author": "Yasmin",
+  "license": "ISC",
+  "homepage": "https://github.com/YasminDSilva/SiteHTML#readme"
+}
